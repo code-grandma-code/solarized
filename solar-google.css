@@ -1,0 +1,176 @@
+/* 100% Credit to http://ethanschoonover.com/solarized */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+
+
+@-moz-document domain("www.google.com") {
+
+    /* all the major elements */
+
+    body, #main, #top_nav, #wob_wc, span.kno-sh, .kno-ec, #hmp, #appbar, #gbx1, #hdtb_msb, #hdtbSum {
+
+        background-color:#002b36 !important; /* base03 */
+
+        color:#93a1a1 !important; /* cyan */
+
+        border:none !important;
+
+    }
+
+    
+
+    /*color the ads so that they're separate from results*/
+
+    #tads{
+
+        background-color:#073642 !important;
+
+        border:none !important;
+
+    }
+
+    
+
+    /* top bar in google search +You, Search, Images, etc */
+
+    #gbx3{
+
+        background-color: #073642 !important; /* base 02 */
+
+        border: none !important;
+
+    }
+
+
+
+    /* link coloring */
+
+    a{
+
+        color:#268bd2 !important; /* blue */ 
+
+    }
+
+    a:visited{
+
+        color:#d33682 !important; /* magenta */
+
+    }
+
+    
+
+    a:hover{
+
+        color:#cb4b16 !important; /* orange */
+
+    }
+
+    
+
+    /* the address shown below the link in the result */
+
+    cite{
+
+        color:#859900 !important; /* green */
+
+    }
+
+    
+
+    
+
+    /* the search result snippet and your user name if signed in */
+
+    span.st, #gbgs4d{
+
+        color:#93a1a1 !important; /*base 1 */
+
+    }
+
+    
+
+    /* the date in the results (and other things?) */
+
+    span.f{
+
+        color:#657b83 !important; /* base 00 */
+
+    }
+
+
+    
+
+    /* google search button and drop down buttons*/
+
+    #gbqfb, #gbqfbb,#gbqfba, .clickable-dropdown-arrow{
+
+        background-image:none !important;
+
+        background-color: #b58900 !important;    /* yellow to kill the blue overload */
+
+        border:none !important;
+
+        color:#fdf6e3 !important; /*base 3 */
+
+    }
+
+    
+
+    /* selected search area */
+
+    .hdtb_msel{
+
+        color: #dc322f   !important; /* red */
+
+        border-color: #dc322f   !important;
+
+    }
+
+    
+
+    /* button on the right hand side */
+
+    #abar_ps_on.ab_button, #abar_ps_off.ab_button, #abar_button_opt {
+
+        background-image: none !important;
+
+        background-color:#586e75 !important;    /* base 01 */
+
+    }
+
+
+
+    /* link colors in the top bar */
+
+    #gbz a{
+
+        color:#839496 !important; /*base 1 */
+
+    }
+
+    #gbz a:active{
+
+        color:#fdf6e3 !important; /*base 3 */
+
+    }
+
+    #gbz a:hover{
+
+        color:#eee8d5 !important; /*base 2 */
+
+    }
+
+    /* home page logo is not transparent with white background - blah*/
+
+    #hplogo{
+
+        height:0px !important; /* crush the img tag */
+
+    }
+
+    #gbql{
+
+        background-image:none !important; /* google logo is cruft */
+
+    }
